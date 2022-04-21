@@ -1,12 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Diagnostics;
 
 namespace MonkePatcher.Debug
 {
-    internal class ADB
+    public class ADB
     {
+        public static void OpenLogcatWindow()
+            => Process.Start($"cmd.exe {Path.Combine(SDKInstaller.SDKBinPath, "adb.exe")} logcat");
     }
 }
