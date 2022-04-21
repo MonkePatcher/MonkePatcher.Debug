@@ -2,7 +2,7 @@
 
 namespace MonkePatcher.Debug
 {
-    public class SDKInstaller
+    public static class SDKInstaller
     {
         static SDKInstaller()
         {
@@ -49,6 +49,7 @@ namespace MonkePatcher.Debug
                 }
 
                 ZipFile.ExtractToDirectory(zipFile, SDKPath);
+                IsInstalled = true;
             }
         }
     }
