@@ -3,5 +3,7 @@ The Debug module for MonkePatcher. It allows easy debugging, it is separate from
 
 ## Features (WIP)
   - [ ] ADB Debugging
-  - [ ] Get Logs
+  - [x] Log Window
+  - [ ] Log Stream
+  - [x] ADB Shell
   - [ ] Automatic Tombstone NDK Stack
