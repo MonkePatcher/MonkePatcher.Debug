@@ -2,11 +2,9 @@
 MonkePatcher.Debug is a primarily static library that wraps some features in the Android SDK/NDK
 
 ## Features (WIP)
-  - [x] Log Window
   - [ ] Log Stream
-  - [x] ADB Shell
+  - [x] ADB Shell Stream
   - [ ] Fetch Tombstones
-  - [ ] Tombstone NDK Stack
 
 ## How To Use
 ### Installing the Android SDK
